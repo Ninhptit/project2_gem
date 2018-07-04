@@ -24,6 +24,7 @@ gem "figaro"
 gem 'bootstrap-sass'
 gem 'devise-bootstrap-views'
 gem 'foundation-rails'
+gem 'cancancan', '~> 1.10'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
